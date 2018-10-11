@@ -15,7 +15,7 @@
 		04967081215F248300117936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0496707F215F248300117936 /* LaunchScreen.storyboard */; };
 		0496708C215F248300117936 /* FIT5140Assignment3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496708B215F248300117936 /* FIT5140Assignment3Tests.swift */; };
 		04967097215F248300117936 /* FIT5140Assignment3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04967096215F248300117936 /* FIT5140Assignment3UITests.swift */; };
-		04A2C54B216F513D0002364A /* GoogleService-Info 9.55.06 PM.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A2C54A216F513D0002364A /* GoogleService-Info 9.55.06 PM.plist */; };
+		04A2C54D216F53A80002364A /* GoogleService-Info 9.55.06 PM.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A2C54C216F53A80002364A /* GoogleService-Info 9.55.06 PM.plist */; };
 		3C149F7954CC8A09F1C06ED1 /* Pods_FIT5140Assignment3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9CF07F31EA12FBD1527A89 /* Pods_FIT5140Assignment3Tests.framework */; };
 		904925F14316F715CC3247FA /* Pods_FIT5140Assignment3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDC7DAA60D268E2B23D83F0 /* Pods_FIT5140Assignment3.framework */; };
 		FCCE23F0D7245CFCD7454117 /* Pods_FIT5140Assignment3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69C15DE3F3438C3A4CEA668 /* Pods_FIT5140Assignment3UITests.framework */; };
@@ -53,7 +53,7 @@
 		04967092215F248300117936 /* FIT5140Assignment3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIT5140Assignment3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04967096215F248300117936 /* FIT5140Assignment3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIT5140Assignment3UITests.swift; sourceTree = "<group>"; };
 		04967098215F248300117936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04A2C54A216F513D0002364A /* GoogleService-Info 9.55.06 PM.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info 9.55.06 PM.plist"; path = "../../GoogleService-Info 9.55.06 PM.plist"; sourceTree = "<group>"; };
+		04A2C54C216F53A80002364A /* GoogleService-Info 9.55.06 PM.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info 9.55.06 PM.plist"; sourceTree = SOURCE_ROOT; };
 		388F3145F50C0774240D3398 /* Pods-FIT5140Assignment3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIT5140Assignment3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIT5140Assignment3/Pods-FIT5140Assignment3.debug.xcconfig"; sourceTree = "<group>"; };
 		43E790758AF5421511CFF551 /* Pods-FIT5140Assignment3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIT5140Assignment3Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIT5140Assignment3Tests/Pods-FIT5140Assignment3Tests.release.xcconfig"; sourceTree = "<group>"; };
 		820831C809B7B129A768CD6D /* Pods-FIT5140Assignment3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIT5140Assignment3UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIT5140Assignment3UITests/Pods-FIT5140Assignment3UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,8 +123,8 @@
 				04967077215F248100117936 /* Main.storyboard */,
 				0496707D215F248300117936 /* Assets.xcassets */,
 				0496707F215F248300117936 /* LaunchScreen.storyboard */,
-				04A2C54A216F513D0002364A /* GoogleService-Info 9.55.06 PM.plist */,
 				04967082215F248300117936 /* Info.plist */,
+				04A2C54C216F53A80002364A /* GoogleService-Info 9.55.06 PM.plist */,
 				0496707A215F248100117936 /* FIT5140Assignment3.xcdatamodeld */,
 			);
 			path = FIT5140Assignment3;
@@ -279,9 +279,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A2C54B216F513D0002364A /* GoogleService-Info 9.55.06 PM.plist in Resources */,
 				04967081215F248300117936 /* LaunchScreen.storyboard in Resources */,
 				0496707E215F248300117936 /* Assets.xcassets in Resources */,
+				04A2C54D216F53A80002364A /* GoogleService-Info 9.55.06 PM.plist in Resources */,
 				04967079215F248100117936 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
