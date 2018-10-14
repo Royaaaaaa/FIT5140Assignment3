@@ -10,6 +10,25 @@ import UIKit
 import Firebase
 
 class HomeViewController: UIViewController {
+    
+    @IBOutlet weak var roadLabel: UILabel!
+    @IBOutlet weak var suburbLabel: UILabel!
+    @IBOutlet weak var stateLabel: UILabel!
+    
+    @IBOutlet weak var direction1Label: UILabel!
+    @IBOutlet weak var direction2Label: UILabel!
+    @IBOutlet weak var distance1Label: UILabel!
+    
+    @IBOutlet weak var speed1Label: UILabel!
+    @IBOutlet weak var distance2Label: UILabel!
+    @IBOutlet weak var speed2Label: UILabel!
+    @IBOutlet weak var safeImageView: UIImageView!
+    
+    
+    var storageRef = Storage.storage()
+    let rootRef = Database.database().reference()
+    let user = Auth.auth().currentUser!.uid
+    var userRefHandle: DatabaseHandle?
 
     override func viewDidLoad() {
         super.viewDidLoad()
