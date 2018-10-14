@@ -67,6 +67,12 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         guard let currentLocation = locations.first else { return }
         var latitude = currentLocation.coordinate.latitude
         var longitude = currentLocation.coordinate.longitude
+        
+        let userRef = rootRef.child("Users/\(user)")
+        let geoRef = userRef.childByAutoId()
+        geoRef.child("latitude").setValue(latitude)
+        geoRef.child("longitude").setValue(longitude)
+            
         print("lat: \(latitude), long: \(longitude)")
         //manager.stopUpdatingLocation()
         //self.location = currentLocation
