@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04098DFE2172C50500F181C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04098DFD2172C50400F181C6 /* GoogleService-Info.plist */; };
 		04967074215F248100117936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04967073215F248100117936 /* AppDelegate.swift */; };
 		04967076215F248100117936 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04967075215F248100117936 /* ViewController.swift */; };
 		04967079215F248100117936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04967077215F248100117936 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		04967081215F248300117936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0496707F215F248300117936 /* LaunchScreen.storyboard */; };
 		0496708C215F248300117936 /* FIT5140Assignment3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496708B215F248300117936 /* FIT5140Assignment3Tests.swift */; };
 		04967097215F248300117936 /* FIT5140Assignment3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04967096215F248300117936 /* FIT5140Assignment3UITests.swift */; };
-		04A2C54F216F54830002364A /* GoogleService-Info 9.55.06 PM.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A2C54E216F54830002364A /* GoogleService-Info 9.55.06 PM.plist */; };
 		3C149F7954CC8A09F1C06ED1 /* Pods_FIT5140Assignment3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9CF07F31EA12FBD1527A89 /* Pods_FIT5140Assignment3Tests.framework */; };
 		904925F14316F715CC3247FA /* Pods_FIT5140Assignment3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDC7DAA60D268E2B23D83F0 /* Pods_FIT5140Assignment3.framework */; };
 		FCCE23F0D7245CFCD7454117 /* Pods_FIT5140Assignment3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69C15DE3F3438C3A4CEA668 /* Pods_FIT5140Assignment3UITests.framework */; };
@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04098DFD2172C50400F181C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		04967070215F248100117936 /* FIT5140Assignment3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIT5140Assignment3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04967073215F248100117936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04967075215F248100117936 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,7 +54,6 @@
 		04967092215F248300117936 /* FIT5140Assignment3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIT5140Assignment3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04967096215F248300117936 /* FIT5140Assignment3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIT5140Assignment3UITests.swift; sourceTree = "<group>"; };
 		04967098215F248300117936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04A2C54E216F54830002364A /* GoogleService-Info 9.55.06 PM.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info 9.55.06 PM.plist"; sourceTree = "<group>"; };
 		388F3145F50C0774240D3398 /* Pods-FIT5140Assignment3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIT5140Assignment3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIT5140Assignment3/Pods-FIT5140Assignment3.debug.xcconfig"; sourceTree = "<group>"; };
 		43E790758AF5421511CFF551 /* Pods-FIT5140Assignment3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIT5140Assignment3Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIT5140Assignment3Tests/Pods-FIT5140Assignment3Tests.release.xcconfig"; sourceTree = "<group>"; };
 		820831C809B7B129A768CD6D /* Pods-FIT5140Assignment3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIT5140Assignment3UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIT5140Assignment3UITests/Pods-FIT5140Assignment3UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 		04967072215F248100117936 /* FIT5140Assignment3 */ = {
 			isa = PBXGroup;
 			children = (
-				04A2C54E216F54830002364A /* GoogleService-Info 9.55.06 PM.plist */,
+				04098DFD2172C50400F181C6 /* GoogleService-Info.plist */,
 				04967073215F248100117936 /* AppDelegate.swift */,
 				04967075215F248100117936 /* ViewController.swift */,
 				04967077215F248100117936 /* Main.storyboard */,
@@ -279,8 +279,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A2C54F216F54830002364A /* GoogleService-Info 9.55.06 PM.plist in Resources */,
 				04967081215F248300117936 /* LaunchScreen.storyboard in Resources */,
+				04098DFE2172C50500F181C6 /* GoogleService-Info.plist in Resources */,
 				0496707E215F248300117936 /* Assets.xcassets in Resources */,
 				04967079215F248100117936 /* Main.storyboard in Resources */,
 			);

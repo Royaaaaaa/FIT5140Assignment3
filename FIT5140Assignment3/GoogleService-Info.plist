@@ -7,9 +7,9 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>721955930549-mceiire0hjs3ifq5kd9h14urhp207m34.apps.googleusercontent.com</string>
+	<string>721955930549-nlo3ego0iuc6rb0tpouec1pk787q62ac.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.721955930549-mceiire0hjs3ifq5kd9h14urhp207m34</string>
+	<string>com.googleusercontent.apps.721955930549-nlo3ego0iuc6rb0tpouec1pk787q62ac</string>
 	<key>API_KEY</key>
 	<string>AIzaSyA-UqgQC8VO7huqj-N9ibp-Yf7CEAdYjMc</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,7 +17,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>Monash.FIT5140Assignment3</string>
+	<string>monash.FIT5140Assignment3</string>
 	<key>PROJECT_ID</key>
 	<string>fit5140-assignment3-b51f7</string>
 	<key>STORAGE_BUCKET</key>
@@ -33,7 +33,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:721955930549:ios:8c6792257631d975</string>
+	<string>1:721955930549:ios:5045108a76bb59e5</string>
 	<key>DATABASE_URL</key>
 	<string>https://fit5140-assignment3-b51f7.firebaseio.com</string>
 </dict>
