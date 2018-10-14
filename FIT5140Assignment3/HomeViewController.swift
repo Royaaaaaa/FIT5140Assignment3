@@ -61,7 +61,7 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         let initial = storyboard.instantiateInitialViewController()
         UIApplication.shared.keyWindow?.rootViewController = initial
     }
-   
+    
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         print("Did get the latest location")
         guard let currentLocation = locations.first else { return }
@@ -73,6 +73,7 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         convertLatLongToAddress(latitude: latitude, longitude: longitude)
     }
     
+    // https://stackoverflow.com/questions/51905877/converting-cllocationcoordinate2d-to-street-address-with-swift
     func convertLatLongToAddress(latitude: Double, longitude: Double) {
         let location = CLLocation(latitude: latitude, longitude: longitude)
         //let geocoder = CLGeocoder()
@@ -104,44 +105,15 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
                     self.stateLabel.text = state
                 }
             }
-//                let placemark = placemarks![0]
-//                self.locality = placemark.locality!
-//                self.administrativeArea = placemark.administrativeArea!
-//                self.country = placemark.country!
-            
         })
 
     }
-    func lookUpCurrentLocation(completionHandler: @escaping (CLPlacemark?)
-        -> Void ) {
-        // Use the last reported location.
-        if let lastLocation = self.manager.location {
-            let geocoder = CLGeocoder()
-            
-            // Look up the location and pass it to the completion handler
-            geocoder.reverseGeocodeLocation(lastLocation,
-                                            completionHandler: { (placemarks, error) in
-                                                if error == nil {
-                                                    let firstLocation = placemarks?[0]
-                                                    completionHandler(firstLocation)
-                                                }
-                                                else {
-                                                    // An error occurred during geocoding.
-                                                    completionHandler(nil)
-                                                }
-            })
-        }
-        else {
-            // No location was available.
-            completionHandler(nil)
-        }
-    }
     
-    func userLocationString() -> String {
-        let userLocationString = "\(locality), \(administrativeArea), \(country)"
-        print("\(userLocationString)")
-        return userLocationString
-    }
+//    func userLocationString() -> String {
+//        let userLocationString = "\(locality), \(administrativeArea), \(country)"
+//        print("\(userLocationString)")
+//        return userLocationString
+//    }
 
     /*
     // MARK: - Navigation
