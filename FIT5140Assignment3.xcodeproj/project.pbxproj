@@ -18,6 +18,7 @@
 		0496708C215F248300117936 /* FIT5140Assignment3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496708B215F248300117936 /* FIT5140Assignment3Tests.swift */; };
 		04967097215F248300117936 /* FIT5140Assignment3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04967096215F248300117936 /* FIT5140Assignment3UITests.swift */; };
 		3C149F7954CC8A09F1C06ED1 /* Pods_FIT5140Assignment3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9CF07F31EA12FBD1527A89 /* Pods_FIT5140Assignment3Tests.framework */; };
+		892615972172D04300C5C0B9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892615962172D04300C5C0B9 /* LoginViewController.swift */; };
 		904925F14316F715CC3247FA /* Pods_FIT5140Assignment3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDC7DAA60D268E2B23D83F0 /* Pods_FIT5140Assignment3.framework */; };
 		FCCE23F0D7245CFCD7454117 /* Pods_FIT5140Assignment3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69C15DE3F3438C3A4CEA668 /* Pods_FIT5140Assignment3UITests.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		388F3145F50C0774240D3398 /* Pods-FIT5140Assignment3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIT5140Assignment3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIT5140Assignment3/Pods-FIT5140Assignment3.debug.xcconfig"; sourceTree = "<group>"; };
 		43E790758AF5421511CFF551 /* Pods-FIT5140Assignment3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIT5140Assignment3Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIT5140Assignment3Tests/Pods-FIT5140Assignment3Tests.release.xcconfig"; sourceTree = "<group>"; };
 		820831C809B7B129A768CD6D /* Pods-FIT5140Assignment3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIT5140Assignment3UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIT5140Assignment3UITests/Pods-FIT5140Assignment3UITests.release.xcconfig"; sourceTree = "<group>"; };
+		892615962172D04300C5C0B9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8BDC7DAA60D268E2B23D83F0 /* Pods_FIT5140Assignment3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIT5140Assignment3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69C15DE3F3438C3A4CEA668 /* Pods_FIT5140Assignment3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIT5140Assignment3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9CF07F31EA12FBD1527A89 /* Pods_FIT5140Assignment3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIT5140Assignment3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +130,7 @@
 				0496707F215F248300117936 /* LaunchScreen.storyboard */,
 				04967082215F248300117936 /* Info.plist */,
 				0496707A215F248100117936 /* FIT5140Assignment3.xcdatamodeld */,
+				892615962172D04300C5C0B9 /* LoginViewController.swift */,
 				04098DFF2172CFBF00F181C6 /* SignUpController.swift */,
 			);
 			path = FIT5140Assignment3;
@@ -391,6 +394,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892615972172D04300C5C0B9 /* LoginViewController.swift in Sources */,
 				0496707C215F248100117936 /* FIT5140Assignment3.xcdatamodeld in Sources */,
 				04967076215F248100117936 /* ViewController.swift in Sources */,
 				04967074215F248100117936 /* AppDelegate.swift in Sources */,
