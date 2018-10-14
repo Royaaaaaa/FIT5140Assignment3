@@ -45,7 +45,7 @@
 		04098DFD2172C50400F181C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		04098DFF2172CFBF00F181C6 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		04098E012172D61700F181C6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		04967070215F248100117936 /* FIT5140Assignment3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIT5140Assignment3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04967070215F248100117936 /* Traffic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Traffic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04967073215F248100117936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04967075215F248100117936 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04967078215F248100117936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,10 +53,10 @@
 		0496707D215F248300117936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04967080215F248300117936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04967082215F248300117936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04967087215F248300117936 /* FIT5140Assignment3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIT5140Assignment3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04967087215F248300117936 /* TrafficTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0496708B215F248300117936 /* FIT5140Assignment3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIT5140Assignment3Tests.swift; sourceTree = "<group>"; };
 		0496708D215F248300117936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04967092215F248300117936 /* FIT5140Assignment3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIT5140Assignment3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04967092215F248300117936 /* TrafficUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04967096215F248300117936 /* FIT5140Assignment3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIT5140Assignment3UITests.swift; sourceTree = "<group>"; };
 		04967098215F248300117936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		388F3145F50C0774240D3398 /* Pods-FIT5140Assignment3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIT5140Assignment3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIT5140Assignment3/Pods-FIT5140Assignment3.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,9 +114,9 @@
 		04967071215F248100117936 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04967070215F248100117936 /* FIT5140Assignment3.app */,
-				04967087215F248300117936 /* FIT5140Assignment3Tests.xctest */,
-				04967092215F248300117936 /* FIT5140Assignment3UITests.xctest */,
+				04967070215F248100117936 /* Traffic.app */,
+				04967087215F248300117936 /* TrafficTests.xctest */,
+				04967092215F248300117936 /* TrafficUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -183,9 +183,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0496706F215F248100117936 /* FIT5140Assignment3 */ = {
+		0496706F215F248100117936 /* Traffic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0496709B215F248300117936 /* Build configuration list for PBXNativeTarget "FIT5140Assignment3" */;
+			buildConfigurationList = 0496709B215F248300117936 /* Build configuration list for PBXNativeTarget "Traffic" */;
 			buildPhases = (
 				F29F9E3E24A25446593301ED /* [CP] Check Pods Manifest.lock */,
 				0496706C215F248100117936 /* Sources */,
@@ -197,14 +197,14 @@
 			);
 			dependencies = (
 			);
-			name = FIT5140Assignment3;
+			name = Traffic;
 			productName = FIT5140Assignment3;
-			productReference = 04967070215F248100117936 /* FIT5140Assignment3.app */;
+			productReference = 04967070215F248100117936 /* Traffic.app */;
 			productType = "com.apple.product-type.application";
 		};
-		04967086215F248300117936 /* FIT5140Assignment3Tests */ = {
+		04967086215F248300117936 /* TrafficTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0496709E215F248300117936 /* Build configuration list for PBXNativeTarget "FIT5140Assignment3Tests" */;
+			buildConfigurationList = 0496709E215F248300117936 /* Build configuration list for PBXNativeTarget "TrafficTests" */;
 			buildPhases = (
 				23AE3D33FF958FA591B5ABC9 /* [CP] Check Pods Manifest.lock */,
 				04967083215F248300117936 /* Sources */,
@@ -216,14 +216,14 @@
 			dependencies = (
 				04967089215F248300117936 /* PBXTargetDependency */,
 			);
-			name = FIT5140Assignment3Tests;
+			name = TrafficTests;
 			productName = FIT5140Assignment3Tests;
-			productReference = 04967087215F248300117936 /* FIT5140Assignment3Tests.xctest */;
+			productReference = 04967087215F248300117936 /* TrafficTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		04967091215F248300117936 /* FIT5140Assignment3UITests */ = {
+		04967091215F248300117936 /* TrafficUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 049670A1215F248300117936 /* Build configuration list for PBXNativeTarget "FIT5140Assignment3UITests" */;
+			buildConfigurationList = 049670A1215F248300117936 /* Build configuration list for PBXNativeTarget "TrafficUITests" */;
 			buildPhases = (
 				F21A621A83CD908821497FDF /* [CP] Check Pods Manifest.lock */,
 				0496708E215F248300117936 /* Sources */,
@@ -235,9 +235,9 @@
 			dependencies = (
 				04967094215F248300117936 /* PBXTargetDependency */,
 			);
-			name = FIT5140Assignment3UITests;
+			name = TrafficUITests;
 			productName = FIT5140Assignment3UITests;
-			productReference = 04967092215F248300117936 /* FIT5140Assignment3UITests.xctest */;
+			productReference = 04967092215F248300117936 /* TrafficUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -263,7 +263,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0496706B215F248000117936 /* Build configuration list for PBXProject "FIT5140Assignment3" */;
+			buildConfigurationList = 0496706B215F248000117936 /* Build configuration list for PBXProject "Traffic" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -276,9 +276,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0496706F215F248100117936 /* FIT5140Assignment3 */,
-				04967086215F248300117936 /* FIT5140Assignment3Tests */,
-				04967091215F248300117936 /* FIT5140Assignment3UITests */,
+				0496706F215F248100117936 /* Traffic */,
+				04967086215F248300117936 /* TrafficTests */,
+				04967091215F248300117936 /* TrafficUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -427,12 +427,12 @@
 /* Begin PBXTargetDependency section */
 		04967089215F248300117936 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0496706F215F248100117936 /* FIT5140Assignment3 */;
+			target = 0496706F215F248100117936 /* Traffic */;
 			targetProxy = 04967088215F248300117936 /* PBXContainerItemProxy */;
 		};
 		04967094215F248300117936 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0496706F215F248100117936 /* FIT5140Assignment3 */;
+			target = 0496706F215F248100117936 /* Traffic */;
 			targetProxy = 04967093215F248300117936 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -581,7 +581,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2H2797PHCF;
 				INFOPLIST_FILE = FIT5140Assignment3/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -601,7 +601,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2H2797PHCF;
 				INFOPLIST_FILE = FIT5140Assignment3/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -631,7 +631,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FIT5140Assignment3.app/FIT5140Assignment3";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Traffic.app/Traffic";
 			};
 			name = Debug;
 		};
@@ -653,7 +653,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FIT5140Assignment3.app/FIT5140Assignment3";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Traffic.app/Traffic";
 			};
 			name = Release;
 		};
@@ -702,7 +702,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0496706B215F248000117936 /* Build configuration list for PBXProject "FIT5140Assignment3" */ = {
+		0496706B215F248000117936 /* Build configuration list for PBXProject "Traffic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04967099215F248300117936 /* Debug */,
@@ -711,7 +711,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0496709B215F248300117936 /* Build configuration list for PBXNativeTarget "FIT5140Assignment3" */ = {
+		0496709B215F248300117936 /* Build configuration list for PBXNativeTarget "Traffic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0496709C215F248300117936 /* Debug */,
@@ -720,7 +720,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0496709E215F248300117936 /* Build configuration list for PBXNativeTarget "FIT5140Assignment3Tests" */ = {
+		0496709E215F248300117936 /* Build configuration list for PBXNativeTarget "TrafficTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0496709F215F248300117936 /* Debug */,
@@ -729,7 +729,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		049670A1215F248300117936 /* Build configuration list for PBXNativeTarget "FIT5140Assignment3UITests" */ = {
+		049670A1215F248300117936 /* Build configuration list for PBXNativeTarget "TrafficUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				049670A2215F248300117936 /* Debug */,
