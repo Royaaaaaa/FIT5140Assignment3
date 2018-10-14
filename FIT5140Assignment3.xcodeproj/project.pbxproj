@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		04098DFE2172C50500F181C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04098DFD2172C50400F181C6 /* GoogleService-Info.plist */; };
 		04098E002172CFBF00F181C6 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04098DFF2172CFBF00F181C6 /* SignUpController.swift */; };
+		04098E022172D61700F181C6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04098E012172D61700F181C6 /* HomeViewController.swift */; };
 		04967074215F248100117936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04967073215F248100117936 /* AppDelegate.swift */; };
 		04967076215F248100117936 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04967075215F248100117936 /* ViewController.swift */; };
 		04967079215F248100117936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04967077215F248100117936 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		04098DFD2172C50400F181C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		04098DFF2172CFBF00F181C6 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		04098E012172D61700F181C6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		04967070215F248100117936 /* FIT5140Assignment3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIT5140Assignment3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04967073215F248100117936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04967075215F248100117936 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				0496707A215F248100117936 /* FIT5140Assignment3.xcdatamodeld */,
 				892615962172D04300C5C0B9 /* LoginViewController.swift */,
 				04098DFF2172CFBF00F181C6 /* SignUpController.swift */,
+				04098E012172D61700F181C6 /* HomeViewController.swift */,
 			);
 			path = FIT5140Assignment3;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				04967076215F248100117936 /* ViewController.swift in Sources */,
 				04967074215F248100117936 /* AppDelegate.swift in Sources */,
 				04098E002172CFBF00F181C6 /* SignUpController.swift in Sources */,
+				04098E022172D61700F181C6 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
