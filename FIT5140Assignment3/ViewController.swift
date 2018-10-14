@@ -9,11 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBAction func loginButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "LoginViewController", sender: self)
+    }
+    
+    @IBAction func signUpButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "SignUpController", sender: self)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    
 
 
 }
